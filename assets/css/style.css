@@ -1,35 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-
+ 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
+     margin: 0;
+     padding: 0;
+     border: 0;
+ }
 /* ---------------body--*/
 
 body {
     font-size: 0.937rem;
+    background-color: hsl(244, 38%, 16%);
+    color:hsl(0, 0%, 100%);
 }
 
-/*----------------header--*/
+
+.hero-image {
+    background-color: hsl(244, 38%, 16%);
+    color:  hsl(277, 64%, 61%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
 .heading {
     font-family: "Inter", sans-serif;
     font-weight: 700;
+    font-size: 1.2rem;
+    width: 75%;
     text-align: center;
-    padding: ;
-
+    display: flex;
 }
+
+.heading p {
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.75rem;
+
+}   
+
+.sub-heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    display: flex;
+}
+
+.sub-heading p {
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 375px) {
+    .heading {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        width: 75%;
+        text-align: center;
+        display: flex;
+    }
+}
+
 
 /*----------------paragraphs--*/
 
 /*----------------images--*/
 
-.hero-image {
-    background-color: hsl(244, 38%, 16%);
-    color:  hsl(277, 64%, 61%);
-}
+
 
 
 
